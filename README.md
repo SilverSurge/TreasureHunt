@@ -12,6 +12,11 @@ Armed with the shovel and compass, our adventurer set forth on their quest to un
 Throughout their journey, the adventurer discovered fragments of small stories, unraveling the island's past piece by piece. These tales whispered of ancient curses, forgotten alliances, and a pair of lakes with an enigmatic connection—the Twin Lake.
 
 ![image 3](https://raw.githubusercontent.com/SilverSurge/TreasureHunt/main/game_3.png)
+# Controls
+1. wasd, arrows : move
+2. j : use the shovel
+3. k : use the compass
+4. c : **cheat**
 # Scripts Explained
 1. **PlayerMovement**: Manages the player movement and the animation of the player movement.
 2. **PlayerDS**: this is where we store the State-related stuff related to the player. like has the player found the compass.
