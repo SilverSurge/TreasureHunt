@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneLoader : MonoBehaviour
+{
+    bool flag = true;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(Input.GetKeyUp(KeyCode.Space) && flag)
+        {
+            flag = false;
+            Debug.Log("Space Deltected");
+            SceneManager.LoadScene(1);
+        }
+    }
+}
